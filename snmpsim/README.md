@@ -4,6 +4,8 @@
 > [Github Repo](https://github.com/etingof/snmpsim)
 >
 > [HomePage](http://snmplabs.com/snmpsim/)
+>
+> snmpsim 是一个用来模拟网络设备的 snmp agent 的工具，可以用来测试诸如 Zabbix 之类的监控工具
 
 ## Quick start
 
