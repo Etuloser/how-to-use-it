@@ -68,3 +68,12 @@ $ mib2dev.py --mib-module=SNMPv2-MIB --start-oid=1.3.6.1.2.1.1.1 --stop-oid=1.3.
 $ datafile.py --input-file=linux.snmpwalk --source-record-type=snmpwalk --output-file=public.snmprec
 ```
 
+## 示例
+
+```shell
+# 以守护进程模式开启一个在 127.0.0.1:1024 上的 snmp agent
+$ snmpsimd.py --daemonize --process-user=root --process-group=root --data-dir=./data --agent-udpv4-endpoint=127.0.0.1:1024
+```
+
+
+
