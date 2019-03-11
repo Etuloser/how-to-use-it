@@ -61,7 +61,8 @@ $ mib2dev.py --mib-module=SNMPv2-MIB --start-oid=1.3.6.1.2.1.1.1 --stop-oid=1.3.
 
 ```shell
 # 使用 datafile.py 来处理 .snmpwalk 数据，转换成 .snmprec 格式
-# 需要注意的是 datafile.py 无法处理多行数据，回报错
+# 需要注意的是 datafile.py 无法处理多行数据，会报错
+# 文件名即共同体
 $ datafile.py --input-file=linux.snmpwalk --source-record-type=snmpwalk --output-file=public.snmprec
 ```
 
