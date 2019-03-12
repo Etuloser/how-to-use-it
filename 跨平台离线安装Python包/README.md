@@ -36,9 +36,9 @@ snmpsim==0.4.7
 
 ## 安装
 
-将安装包上传到服务器，解压后安装，注意安装顺序从上到下
+将安装包上传到服务器，解压后安装
 
 ```shell
-$ pip install <python_package>.whl
+$ pip install -r requiremment.txt --no-index --find-links=/python_package
 ```
 
