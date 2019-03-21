@@ -30,7 +30,7 @@ snmpsim==0.4.7
 
 根据 requirement.txt 文件，到 [pypi](https://pypi.org/) 去找对应的包
 
-![download_page](https://raw.githubusercontent.com/Etuloser/how-to-use-it/master/%E8%B7%A8%E5%B9%B3%E5%8F%B0%E7%A6%BB%E7%BA%BF%E5%AE%89%E8%A3%85Python%E5%8C%85/download_page.png)
+>![download_page](https://raw.githubusercontent.com/Etuloser/how-to-use-it/master/%E8%B7%A8%E5%B9%B3%E5%8F%B0%E7%A6%BB%E7%BA%BF%E5%AE%89%E8%A3%85Python%E5%8C%85/download_page.png)
 
 注意 python 版本以及 linux 平台带 u 与不带的区别，最好两个都下，一般用带 u 的，差异是 Unicode 码占 2 字节还是 4 字节
 
