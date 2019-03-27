@@ -35,7 +35,8 @@ snmpsim==0.4.7
 ~~注意 python 版本以及 linux 平台带 u 与不带的区别，最好两个都下，一般用带 u 的，差异是 Unicode 码占 2 字节还是 4 字节~~
 
 ```shell
-$ pip wheel -r requirement.txt
+# 将安装好的包打包成 wheel 格式
+(venv)$ pip wheel -r requirement.txt
 ```
 
 ## 安装
