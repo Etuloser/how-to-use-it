@@ -26,18 +26,15 @@ pysnmp==4.4.9
 snmpsim==0.4.7
 ```
 
-## 下载所需 whl 格式安装包
+## 下载包
 
-~~根据 requirement.txt 文件，到 [pypi](https://pypi.org/) 去找对应的包~~
-
->~~![download_page](https://raw.githubusercontent.com/Etuloser/how-to-use-it/master/%E8%B7%A8%E5%B9%B3%E5%8F%B0%E7%A6%BB%E7%BA%BF%E5%AE%89%E8%A3%85Python%E5%8C%85/download_page.png)~~
-
-~~注意 python 版本以及 linux 平台带 u 与不带的区别，最好两个都下，一般用带 u 的，差异是 Unicode 码占 2 字节还是 4 字节~~
-
-```shell
-# 将安装好的包打包成 wheel 格式
-(venv)$ pip wheel -r requirement.txt
+```bash
+# 找一台与部署环境发行版本一致 Python 解释器版本一致的，能上外网的机器下载对应依赖包
+$ pip3 download -r requirement.txt -d libs/
+$ tar -cf libs.tar libs/
 ```
+
+
 
 ## 安装
 
@@ -46,4 +43,3 @@ snmpsim==0.4.7
 ```shell
 $ pip install -r requiremment.txt --no-index --find-links=/python_package
 ```
-
