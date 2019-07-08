@@ -6,10 +6,10 @@
 
 ## Yumdownloader
 
-```shell
+```bash
 $ yum install -y yum-utils
 # 默认下载在当前目录，--destdir=DESTDIR	destination directory (defaults to current directory)
-$ yumdownloader --downloadonly <package>
+$ yumdownloader --downloadonly --resolve <package>
 ```
 
 ```bash
