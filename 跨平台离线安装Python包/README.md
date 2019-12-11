@@ -31,7 +31,7 @@ snmpsim==0.4.7
 ```bash
 # 找一台与部署环境发行版本一致 Python 解释器版本一致的，能上外网的机器下载对应依赖包
 $ pip3 download -r requirement.txt -d libs/
-$ tar -cf libs.tar libs/
+$ tar -cf libs.tar libs/ requirement.txt
 ```
 
 
@@ -41,5 +41,5 @@ $ tar -cf libs.tar libs/
 将安装包上传到服务器，解压后安装
 
 ```shell
-$ pip install -r requiremment.txt --no-index --find-links=/python_package
+$ pip install -r requirement.txt --no-index --find-links=/python_package
 ```

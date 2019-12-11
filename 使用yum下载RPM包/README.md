@@ -12,9 +12,14 @@ $ yum install -y yum-utils
 $ yumdownloader --downloadonly --resolve <package>
 ```
 
+## 安装
+
 ```bash
-$ yum install --download
+$ cd <package>/
+$ rpm -Uvh *.rpm
 ```
+
+
 
 
 
